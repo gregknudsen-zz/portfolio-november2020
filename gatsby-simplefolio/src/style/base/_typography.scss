@@ -19,7 +19,11 @@ a:active {
 }
 
 a:hover {
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
 }
 
 .section-title {
@@ -51,5 +55,9 @@ a:hover {
 
   &:hover {
     transform: translateX(2px);
+    -webkit-transform: translateX(2px);
+    -moz-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    -o-transform: translateX(2px);
   }
 }

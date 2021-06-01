@@ -22,6 +22,10 @@ function App() {
     setProjects([...projectsData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
+
+    console.log('====================================');
+    console.log(PortfolioProvider);
+    console.log('====================================');
   }, []);
 
   return (

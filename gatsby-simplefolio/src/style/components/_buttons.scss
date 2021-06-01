@@ -1,5 +1,6 @@
 /* Call to Action Button */
 .cta-btn {
+  color: $primary-color;
   display: inline-block;
   position: relative;
   padding: 0.8rem $default-font-size;
@@ -16,6 +17,7 @@
     height: 100%;
     left: 0;
     bottom: 0;
+    transform-origin: right;
     z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   }
@@ -56,6 +58,7 @@
 
     &::after {
       width: 100%;
+      transform-origin: left;
     }
   }
 }
@@ -83,3 +86,39 @@
 .up i {
   color: #272727;
 }
+
+// .test {
+//   text-decoration: none;
+//   color: $primary-color;
+//   position: relative;
+// }
+
+// .test::after {
+//   content: "";
+//   position: absolute;
+//   left: 0;
+//   bottom: 0;
+//   transform: scaleX(0);
+//   height: 100%;
+//   width: 100%;
+//   background: currentColor;
+//   -webkit-transform: scaleX(0);
+//   -moz-transform: scaleX(0);
+//   -ms-transform: scaleX(0);
+//   -o-transform: scaleX(0);
+//   transition: transform 200ms;
+//   -webkit-transition: transform 200ms;
+//   -moz-transition: transform 200ms;
+//   -ms-transition: transform 200ms;
+//   -o-transition: transform 200ms;
+//   transform-origin: right;
+// }
+
+// .test:hover::after {
+//   transform: scaleX(1);
+//   -webkit-transform: scaleX(1);
+//   -moz-transform: scaleX(1);
+//   -ms-transform: scaleX(1);
+//   -o-transform: scaleX(1);
+//   transform-origin: left;
+// }
