@@ -12,7 +12,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: "Greg Knudsen",
-  subtitle: "Musician | Developer | Artist",
+  subtitle: "Developer | Musician | Artist",
   subtitle2: "Teacher | Student",
   cta: "Learn More"
 };

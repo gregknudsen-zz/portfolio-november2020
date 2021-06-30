@@ -15,11 +15,11 @@
   right: 0;
   z-index: -1;
 
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
+  // If you want to set a background image on the hero section, uncomment these with your custom image
 
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+  // background: url("../../images/me.png");
+  // background-position: center;
+  // background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -49,6 +49,21 @@
 
   .subtitle2 {
     font-size: 4rem;
+
+    @include respond(tab-land) {
+      font-size: 3.6rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.2rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+    }
   }
 
   .hero-cta {

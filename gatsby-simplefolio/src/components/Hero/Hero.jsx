@@ -29,14 +29,19 @@ const Header = () => {
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Your Name'}</span>
-            <br />
+          </h1>
+        </Fade>
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={2500} distance="30px">
+          <h1 className="hero-title">
             {subtitle || "I'm the Unknown Developer."}
           </h1>
         </Fade>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={4000} distance="30px">
           <h2 className="hero-title subtitle2">
             {subtitle2}
           </h2>
+        </Fade>
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={5500} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero test">
               <Link to="about" smooth duration={1000}>

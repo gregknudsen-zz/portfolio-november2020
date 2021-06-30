@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Container } from 'react-bootstrap';
+import { Container, Card, Button } from 'react-bootstrap';
+import Accordion from 'react-bootstrap/Accordion';
+import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
@@ -15,7 +17,7 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
+              {cta || 'Can you teach me something? Awesome!'}
             </p>
             <a
               target="_blank"
@@ -27,6 +29,7 @@ const Contact = () => {
             </a>
           </div>
         </Fade>
+        
       </Container>
     </section>
   );
