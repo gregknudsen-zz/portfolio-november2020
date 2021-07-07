@@ -1,8 +1,9 @@
 import React, { useContext, useState } from 'react';
-import { Card, Button } from 'react-bootstrap';
-import Accordion from 'react-bootstrap/Accordion';
-import Collapse from 'react-bootstrap/Collapse';
-import Fade from 'react-bootstrap/Fade';
+import { Card, Button, Container } from 'react-bootstrap';
+import ListGroup from 'react-bootstrap/ListGroup';
+import Row from 'react-bootstrap/Row';
+import Tab from 'react-bootstrap/Tab';
+import Col from 'react-bootstrap/Col';
 import PortfolioContext from '../../context/context';
 
 import AboutImg from '../Image/AboutImg';
@@ -16,24 +17,7 @@ const MusicPhase = () => {
 
   return (
     <>
-      <Button
-        onClick={() => setOpen(!open)}
-        aria-controls="example-collapse-text"
-        aria-expanded={open}
-        className="my-button cta-btn cta-btn--resume"
-      >
-        Phase I - Musician
-      </Button>
-      <Collapse in={open}>
-        <div id="example-collapse-text">
-          <div className="about-wrapper__image">
-            <AboutImg alt="profile picture" filename={img} />
-          </div>
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-          labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-      </Collapse>
+     Music Phase
     </>
   );
 };

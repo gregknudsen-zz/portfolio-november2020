@@ -15,32 +15,7 @@ const DevPhase = () => {
 
   return (
     <>
-      <Button
-        onClick={() => setOpen(!open)}
-        aria-controls="example-collapse-text"
-        aria-expanded={open}
-        className="my-button cta-btn cta-btn--resume"
-      >
-        Phase II - Developer
-      </Button>
-      <Collapse in={open}>
-        <div id="example-collapse-text">
-          {/* <div className="about-wrapper__image">
-            <AboutImg alt="profile picture" filename={img} />
-          </div> */}
-          <p className="about-wrapper__info-text">
-            Welcome! I'm currently a full stack developer for Duquesne Light Company in Pittsburgh,
-            PA. The picture you see is from my former life as Co Principal Trumpet of the Sarasota
-            Orchestra. I don't have any photos of me sitting at a computer this exciting, so that's
-            what I decided to go with. ツ My journey to this point has been a series of twists and
-            turns that have led me here to Indiana, PA - just outside of Pittsburgh.
-          </p>
-          <p className="about-wrapper__info-text">I love to learn things.</p>
-          <p className="about-wrapper__info-text">
-            {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-          </p>
-        </div>
-      </Collapse>
+      Dev Phase
     </>
     //   {/* <Accordion>
     //     <Card>
