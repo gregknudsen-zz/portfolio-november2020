@@ -37,10 +37,9 @@ const About = () => {
             <p className="about-wrapper__info-text">
               Welcome! I'm currently a full stack developer for Duquesne Light Company in
               Pittsburgh, PA. The picture you see is from my former life as Co Principal Trumpet of
-              the Sarasota Orchestra. I don't have any photos of me sitting at a computer this
-              exciting, so that's what I decided to go with. ツ My journey to this point has been a
+              the Sarasota Orchestra. My journey to this point has been a
               series of twists and turns that have led me here to Indiana, PA - just outside of
-              Pittsburgh.
+              Pittsburgh. Click on one of the buttons below to get a sense of where I've come from.
             </p>
           </Col>
         </Row>
