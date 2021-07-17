@@ -1,0 +1,18 @@
+.accordion {
+  // display: flex;
+}
+
+.my-card-body {
+  color: #111;
+}
+
+.my-button{
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1em;
+  width: 100%;
+  &:hover {
+    text-decoration: none;
+  }
+}
